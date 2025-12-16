@@ -3,7 +3,7 @@
 class ControladorUsuarios{
 
 	/*======================================
-	INGRESO DE USUARIO
+				INGRESO DE USUARIO
 	=======================================*/
 	
 	static public function ctrIngresoUsuario(){
@@ -44,7 +44,7 @@ class ControladorUsuarios{
 
 	}
 	/*======================================
-	REGISTRO DE USUARIO
+			REGISTRO DE USUARIO
 	=======================================*/
 
 	static public function ctrCrearUsuario(){
@@ -69,7 +69,6 @@ class ControladorUsuarios{
 
 					echo '<script>
 
-
 						Swal.fire({
   							icon: "success",
   							title: "¡ El usuario ha sido guardado exitosamente !",
@@ -90,10 +89,10 @@ class ControladorUsuarios{
 					}
 
 
-				}else{
-					echo '<script>
+					}else{
+						echo '<script>
 
-						Swal.fire({
+							Swal.fire({
   							icon: "error",
   							title: "¡El usuario no puede ir vacio o llevar caracteres especiales",
   							text: "¡Algo salió mal!",
@@ -101,7 +100,7 @@ class ControladorUsuarios{
 							confirmButtonText: "Cerrar",
 							closeOnConfirm: false
 
-  						}).then((result)=>{
+  							}).then((result)=>{
 
 							if(result.value){
 
