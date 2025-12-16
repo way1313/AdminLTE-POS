@@ -69,9 +69,10 @@ class ControladorUsuarios{
 
 					echo '<script>
 
+
 						Swal.fire({
   							icon: "success",
-  							title: "¡El usuario ha sido guardado exitosamente!",
+  							title: "¡ El usuario ha sido guardado exitosamente !",
   							showConfirmButton: true,
 							confirmButtonText: "Cerrar",
 							closeOnConfirm: false
